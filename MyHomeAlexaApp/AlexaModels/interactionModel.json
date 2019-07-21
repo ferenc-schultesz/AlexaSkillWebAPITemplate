@@ -1,0 +1,47 @@
+﻿{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my awesome calculator",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "add_numbers",
+                    "slots": [
+                      {
+                        "name": "a",
+                        "type": "AMAZON.NUMBER"
+                      },
+                        {
+                            "name": "b",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "add {a} and {b}",
+                        "add {a} to {b}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
